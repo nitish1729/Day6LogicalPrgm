@@ -2,6 +2,8 @@
 
 // Logical Programs
 
-string Welcome = "Welcome to the Day 6 practice section : ";
+tring Welcome;
+		Console.WriteLine("Enter Your Msg" +"Welcome to the Day 6 practice section :");
+		Welcome = string.Copy(Console.ReadLine());
 
-Console.WriteLine(Welcome + " Logical Programs");
+    Console.WriteLine(Welcome + " To Logical Programs");
